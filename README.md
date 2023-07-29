@@ -48,7 +48,7 @@ To run the Streamlit app locally on your machine, follow these steps:
 pip install streamlit-bls-connection
 ```
 
-2. Create a new Python script (e.g., app.py) or use an existing one.
+2. Create a new Python script (e.g. called app.py) or use an existing one with your favorite text editor (e.g., VSCode, Sublime Text, PyCharm, Spyder, Notepad++).
 3. Import the necessary modules and functions:
 ```python
 import streamlit as st
