@@ -59,6 +59,7 @@ from streamlit_bls_connection import BLSConnection
 connection = BLSConnection("bls_connection")
 ```
 5. Define the input parameters for the API call, such as the list of Series IDs, start year, and end year:
+Note: Series IDs can be found on the Bureau of Labor Statistics, see https://beta.bls.gov/dataQuery/search
 ```python
 seriesids_list = ['APU000074714', 'APU000072610']
 start_year_str = '2014'  # start of date range
