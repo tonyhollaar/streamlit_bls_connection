@@ -5,9 +5,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='streamlit_bls_connection',
-    version='0.5',
+    version='0.6',
     license='MIT',  
     description='A package to fetch Bureau of Labor Statistics data using Streamlit',
+    long_description=long_description,  
+    long_description_content_type='text/markdown',
     author='Tony Hollaar',
     author_email='thollaar@gmail.com',
     url='https://github.com/tonyhollaar/',

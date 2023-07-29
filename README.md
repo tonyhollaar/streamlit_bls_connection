@@ -34,5 +34,11 @@ electricity_df = dataframes_dict['APU000072610']
 st.dataframe(gas_df, electricity_df)
 ```
 
+## Requirements
+- Python 3.8 and above
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+For questions, suggestions, or contributions, please visit my [GitHub Profile](https://github.com/tonyhollaar).

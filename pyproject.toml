@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "streamlit_bls_connection"
+version = "0.6"
+description = "API for U.S. Bureau of Labor Statistics with Streamlit Connection"
+authors = ["Tony Hollaar <thollaar@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+# Add additional dependencies here if needed
