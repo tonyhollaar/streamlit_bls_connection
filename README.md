@@ -48,52 +48,41 @@ To run the Streamlit app locally on your machine, follow these steps:
 pip install streamlit-bls-connection
 ```
 
-2. Create a new Python script (e.g. called app.py) or use an existing one with your favorite text editor (e.g., VSCode, Sublime Text, PyCharm, Spyder, Notepad++).
-3. Import the necessary modules and functions:
+2. Create a new Python script  with your favorite text editor (e.g., VSCode, Spyder, Notepad++), name it app.py and copy/paste below code and save changes.
 ```python
 import streamlit as st
 from streamlit_bls_connection import BLSConnection
-```
-4. Set up the connection to the U.S. Bureau of Labor Statistics (BLS) API:
-```python
+
+# Step 1: Setup connection to US Bureau of Labor Statistics
 connection = BLSConnection("bls_connection")
-```
-5. Define the input parameters for the API call, such as the list of Series IDs, start year, and end year:
-Note: Series IDs can be found on the Bureau of Labor Statistics, see https://beta.bls.gov/dataQuery/search
-```python
+
+# Step 2: Define Input parameters for the API call
+# Tip: one or multiple Series ID's* can be retrieved
 seriesids_list = ['APU000074714', 'APU000072610']
 start_year_str = '2014'  # start of date range
 end_year_str = '2023'    # end of date range
-```
 
-6. Fetch data using the custom connection:
-```python
+# Step 3: Fetch data using the custom connection
 dataframes_dict = connection.query(seriesids_list, start_year_str, end_year_str)
-```
 
-7. Create dataframes from the fetched data:
-```python
+# Step 4: Create dataframes
 gas_df = dataframes_dict['APU000074714']
 electricity_df = dataframes_dict['APU000072610']
-```
 
-8. Show the dataframes in the Streamlit app using st.dataframe:
-```python
+# Step 5: Show Dataframes in Streamlit
 st.dataframe(gas_df)
 st.dataframe(electricity_df)
 ```
 
-9. Save the changes to your Python script.
-
-10. In your terminal or command prompt, navigate to the directory where your Python script is located.
+3. In your terminal or command prompt, navigate to the directory where your Python script is located.
 ```bash
 cd /path/to/your/python/script
 ```
-11. Run the Streamlit app using the following command:
+4. Run the Streamlit app using the following command:
 ```bash
 streamlit run app.py
 ```
-12. See your results in the browser of your Streamlit App!
+5. See your results in the browser of your Streamlit App!
 
 
 ## Requirements
