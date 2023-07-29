@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/tonyhollaar/streamlit_bls_connection/main/logo.svg"><br>
 </div>
 
-# Streamlit Connection API
+## Description
 The Streamlit Connection API is a custom-built Python package that allows you to easily interact with the U.S. Bureau of Labor Statistics (BLS) API and retrieve data as pandas dataframes.
 
 ## Installation
@@ -35,14 +35,33 @@ gas_df = dataframes_dict['APU000074714']
 electricity_df = dataframes_dict['APU000072610']
 
 # Step 5: Show Dataframes in Streamlit
-st.dataframe(gas_df, electricity_df)
+st.dataframe(gas_df)
+st.dataframe(electricity_df)
 ```
+## Running the Streamlit App
+
+To run the Streamlit app locally on your machine, follow these steps:
+
+1. Install the Streamlit Connection API package and its dependencies by running the following command in your terminal or command prompt:
+
+```bash
+pip install streamlit-bls-connection
+
 
 ## Requirements
-- Python 3.8 and above
+- Python version 3.8 and above
+- Streamlit version 1.25.0
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 For questions, suggestions, or contributions, please visit my [GitHub Profile](https://github.com/tonyhollaar).
+
+## Reporting Issues
+
+If you encounter any problems, have questions, or want to request a new feature, please feel free to open an issue on [GitHub](https://github.com/tonyhollaar/streamlit_bls_connection/issues). I appreciate your feedback and will do our best to address any concerns promptly.
+
+When reporting an issue, please provide as much detail as possible, including the version of the package, the Python version, and a clear description of the problem or feature request. This will help me better understand and resolve the issue quickly.
+
+Thank you for your contributions to making this package better!
