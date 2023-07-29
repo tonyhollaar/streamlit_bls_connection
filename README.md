@@ -3,7 +3,7 @@
 </div>
 
 ## Description
-The Streamlit Connection API is a custom-built Python package that allows you to easily interact with the U.S. Bureau of Labor Statistics (BLS) API and retrieve data as pandas dataframes.
+The Streamlit Connection API is a custom-built Python package that allows you to easily interact with the U.S. Bureau of Labor Statistics (BLS) API and retrieve data as pandas dataframes and display them in Streamlit!
 
 ## Installation
 
@@ -38,7 +38,7 @@ electricity_df = dataframes_dict['APU000072610']
 st.dataframe(gas_df)
 st.dataframe(electricity_df)
 ```
-## Running the Streamlit App
+## Running the Streamlit App with streamlit-bls-connection
 
 To run the Streamlit app locally on your machine, follow these steps:
 
@@ -46,6 +46,53 @@ To run the Streamlit app locally on your machine, follow these steps:
 
 ```bash
 pip install streamlit-bls-connection
+```
+
+2. Create a new Python script (e.g., app.py) or use an existing one.
+3. Import the necessary modules and functions:
+```python
+import streamlit as st
+from streamlit_bls_connection import BLSConnection
+```
+4. Set up the connection to the U.S. Bureau of Labor Statistics (BLS) API:
+```python
+connection = BLSConnection("bls_connection")
+```
+5. Define the input parameters for the API call, such as the list of Series IDs, start year, and end year:
+```python
+seriesids_list = ['APU000074714', 'APU000072610']
+start_year_str = '2014'  # start of date range
+end_year_str = '2023'    # end of date range
+```
+
+6. Fetch data using the custom connection:
+```python
+dataframes_dict = connection.query(seriesids_list, start_year_str, end_year_str)
+```
+
+7. Create dataframes from the fetched data:
+```python
+gas_df = dataframes_dict['APU000074714']
+electricity_df = dataframes_dict['APU000072610']
+```
+
+8. Show the dataframes in the Streamlit app using st.dataframe:
+```python
+st.dataframe(gas_df)
+st.dataframe(electricity_df)
+```
+
+9. Save the changes to your Python script.
+
+10. In your terminal or command prompt, navigate to the directory where your Python script is located.
+```bash
+cd /path/to/your/python/script
+```
+11. Run the Streamlit app using the following command:
+```bash
+streamlit run app.py
+```
+12. See your results in the browser of your Streamlit App!
 
 
 ## Requirements
