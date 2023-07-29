@@ -1,7 +1,18 @@
 Metadata-Version: 2.1
 Name: streamlit-bls-connection
-Version: 0.4
+Version: 0.5
 Summary: A package to fetch Bureau of Labor Statistics data using Streamlit
+Home-page: https://github.com/tonyhollaar/
+Download-URL: https://github.com/tonyhollaar/streamlit_bls_connection/archive/refs/tags/v4.tar.gz
 Author: Tony Hollaar
 Author-email: thollaar@gmail.com
+License: MIT
+Keywords: streamlit,api,bls
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
 License-File: LICENSE
