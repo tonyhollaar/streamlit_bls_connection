@@ -16,7 +16,7 @@ pip install streamlit-bls-connection
 ```
 
 ### Create .py file
-2. Create a new Python script  with your favorite text editor (e.g., VSCode, Spyder, Notepad++), name it app.py and copy/paste below code and save changes.
+2. Create a new Python script  with your favorite text editor (e.g., VSCode, Spyder, Notepad++), name it `app.py` and copy/paste below code and save changes.
 ```python
 import streamlit as st
 from streamlit_bls_connection import BLSConnection
