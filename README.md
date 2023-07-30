@@ -76,3 +76,6 @@ If you encounter any problems, have questions, or want to request a new feature,
 When reporting an issue, please provide as much detail as possible, including the version of the package, the Python version, and a clear description of the problem or feature request. This will help me better understand and resolve the issue quickly.
 
 Thank you for your contributions to making this package better!
+
+## Use in Google Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tonyhollaar/streamlit_bls_connection/blob/main/example_googlecolab_streamlit_bls_connection.ipynb)
