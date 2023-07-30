@@ -5,13 +5,6 @@
 ## Description
 The Streamlit Connection API is a custom-built Python package that allows you to easily interact with the U.S. Bureau of Labor Statistics (BLS) API and retrieve data as pandas dataframes and display them in Streamlit!
 
-## Installation
-
-To install the Streamlit Connection API, simply run the following command:
-```python
-pip install streamlit-bls-connection
-```
-
 ## Running the Streamlit App with `streamlit-bls-connection`
 To run the Streamlit app locally on your machine, follow these steps:
 
