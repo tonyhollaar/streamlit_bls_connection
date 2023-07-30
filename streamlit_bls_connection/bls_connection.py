@@ -70,6 +70,6 @@ class BLSConnection(ExperimentalBaseConnection):
             return connection.fetch_data(series_id, start_year, end_year)
         except KeyError:
             with st.sidebar:
-                st.error("😒 **Error**: Failed to fetch latest data. Daily query limit is exceeded, retrieving stored data from backup source.")
+                st.error("😒 **Error**: Failed to fetch latest data. Daily query limit is exceeded")
            #st.stop()  # Stop the app execution and display the error message to the user
             return None
