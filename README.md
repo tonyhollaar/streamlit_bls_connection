@@ -15,7 +15,7 @@ pip install streamlit-bls-connection
 ## Running the Streamlit App with `streamlit-bls-connection`
 To run the Streamlit app locally on your machine, follow these steps:
 
-1. Install the Streamlit Connection API package and its dependencies by running the following command in your terminal or command prompt:
+1. Install the `streamlit-bls-connection` package and its dependencies by running the following command in your terminal or command prompt:
 
 ```bash
 pip install streamlit-bls-connection
