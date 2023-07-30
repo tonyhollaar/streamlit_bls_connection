@@ -12,7 +12,7 @@ To install the Streamlit Connection API, simply run the following command:
 pip install streamlit-bls-connection
 ```
 
-## Running the Streamlit App with streamlit-bls-connection - Example Usage
+## Running the Streamlit App with <span style="color:green"> streamlit-bls-connection </span>
 To run the Streamlit app locally on your machine, follow these steps:
 
 1. Install the Streamlit Connection API package and its dependencies by running the following command in your terminal or command prompt:
