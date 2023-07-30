@@ -8,9 +8,9 @@
 </div>
 
 ## Description
-The streamlit-bls-connection package allows you to easily interact with the U.S. Bureau of Labor Statistics (BLS) API and retrieve data as pandas dataframes and display them in [`Streamlit`](https://docs.streamlit.io/) !
+The `streamlit-bls-connection` package allows you to easily interact with the U.S. Bureau of Labor Statistics (BLS) API and retrieve data as pandas dataframes and display them in [`Streamlit`](https://docs.streamlit.io/) !
 
-## Running the Streamlit App with `streamlit-bls-connection`
+## How to use `streamlit-bls-connection`
 To run the Streamlit app locally on your machine, follow these steps:
 
 ### Installation
