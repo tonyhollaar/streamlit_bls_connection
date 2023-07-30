@@ -15,12 +15,14 @@ pip install streamlit-bls-connection
 ## Running the Streamlit App with `streamlit-bls-connection`
 To run the Streamlit app locally on your machine, follow these steps:
 
+### Installation
 1. Install the `streamlit-bls-connection` package and its dependencies by running the following command in your terminal or command prompt:
 
 ```bash
 pip install streamlit-bls-connection
 ```
 
+### Create .py file
 2. Create a new Python script  with your favorite text editor (e.g., VSCode, Spyder, Notepad++), name it app.py and copy/paste below code and save changes.
 ```python
 import streamlit as st
@@ -47,10 +49,12 @@ st.dataframe(gas_df)
 st.dataframe(electricity_df)
 ```
 
+### In terminal set file path of folder containing .py file
 3. In your terminal or command prompt, navigate to the directory where your Python script is located.
 ```bash
 cd /path/to/your/python/script
 ```
+### Run Streamlit App
 4. Run the Streamlit app using the following command:
 ```bash
 streamlit run app.py
