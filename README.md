@@ -78,4 +78,5 @@ When reporting an issue, please provide as much detail as possible, including th
 Thank you for your contributions to making this package better!
 
 ## Use in Google Colab
+If you want to try it out in the cloud, to see the `streamlit-bls-connection` with a Streamlit app in action, you can click the link below!
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tonyhollaar/streamlit_bls_connection/blob/main/example_googlecolab_streamlit_bls_connection.ipynb)
