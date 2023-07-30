@@ -1,11 +1,7 @@
-![PyPI](https://img.shields.io/pypi/v/streamlit-bls-connection)
-
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![PyPI](https://img.shields.io/pypi/v/streamlit-bls-connection)
 ![Python: 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![GitHub Actions](https://github.com/tonyhollaar/streamlit_bls_connection/actions/workflows/main.yml/badge.svg)
 ![PyPI Version](https://img.shields.io/pypi/v/streamlit-bls-connection.svg)
-![PyPI Downloads](https://img.shields.io/pypi/dm/streamlit-bls-connection.svg)
-[![Code Quality: Python](https://img.shields.io/lgtm/grade/python/g/tonyhollaar/streamlit_bls_connection.svg)](https://lgtm.com/projects/g/tonyhollaar/streamlit_bls_connection/context:python)
 
 
 <div align="center">
