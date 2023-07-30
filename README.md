@@ -1,6 +1,17 @@
+![PyPI](https://img.shields.io/pypi/v/streamlit-bls-connection)
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python: 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![GitHub Actions](https://github.com/tonyhollaar/streamlit_bls_connection/actions/workflows/main.yml/badge.svg)
+![PyPI Version](https://img.shields.io/pypi/v/streamlit-bls-connection.svg)
+![PyPI Downloads](https://img.shields.io/pypi/dm/streamlit-bls-connection.svg)
+[![Code Quality: Python](https://img.shields.io/lgtm/grade/python/g/tonyhollaar/streamlit_bls_connection.svg)](https://lgtm.com/projects/g/tonyhollaar/streamlit_bls_connection/context:python)
+
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/tonyhollaar/streamlit_bls_connection/main/logo.svg"><br>
 </div>
+
 
 ## Description
 The streamlit-bls-connection package allows you to easily interact with the U.S. Bureau of Labor Statistics (BLS) API and retrieve data as pandas dataframes and display them in [`Streamlit`](https://docs.streamlit.io/) !
