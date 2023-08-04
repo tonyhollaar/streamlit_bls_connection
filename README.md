@@ -20,7 +20,7 @@
 - [Reporting Issues](#reporting-issues)
 - [Acknowledgements](#acknowledgements)
 - [Use in Google Colab](#use-in-google-colab)
-- [How do I obtain an API Key?](#obtaining-api-key)
+- [How do I obtain an API Key?](#how-do-i-obtain-an-api-key)
 - [Streamlit Demo](#streamlit-demo)
 
 ## Description
