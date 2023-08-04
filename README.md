@@ -134,7 +134,7 @@ When reporting an issue, please provide as much detail as possible, including th
 Thank you for your contributions to making this package better!
 
 ## Acknowledgments
-Special thanks to the Streamlit team for creating an amazing framework for building interactive web apps with Python.
+Special thanks 👏 to the Streamlit team for creating an amazing framework for building interactive web apps with Python.
 
 ## Use in Google Colab
 If you want to try it out in the cloud, to see the `streamlit-bls-connection` with a Streamlit app in action, you can click the link below!
