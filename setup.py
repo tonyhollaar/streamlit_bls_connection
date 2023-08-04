@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='streamlit_bls_connection',
-    version='0.7',
+    version='0.8',
     license='MIT',  
     description='A package to fetch Bureau of Labor Statistics data using Streamlit',
     long_description=long_description,  
