@@ -20,6 +20,7 @@
 - [Reporting Issues](#reporting-issues)
 - [Acknowledgements](#acknowledgements)
 - [Use in Google Colab](#use-in-google-colab)
+- [Obtaining API Key](#obtaining-api-key)
 - [Streamlit Demo](#streamlit-demo)
 
 ## Description
@@ -135,6 +136,23 @@ Thank you for your contributions to making this package better!
 
 ## Acknowledgments
 Special thanks 👏 to the Streamlit team for creating an amazing framework for building interactive web apps with Python.
+
+### Obtaining API Key
+Before using the `streamlit-bls-connection` package, you need to obtain an API key from the U.S. Bureau of Labor Statistics (BLS). The API key is required for enhanced data access capabilities, allowing for a larger number of requests.
+
+To obtain your API key, follow these steps:
+
+1. Visit the BLS registration page: [https://data.bls.gov/registrationEngine/](https://data.bls.gov/registrationEngine/).
+
+2. Fill out the registration form with the necessary details.
+
+3. Submit the registration form.
+
+4. You should receive an email confirmation with your API key.
+
+5. Copy your API key and use it as the value for the `api_key` parameter when using the `connection.query()` method.
+
+Please note that without an API key, you might be subject to limitations on the number of requests you can make. Having an API key will provide you with a more comprehensive and seamless experience when working with the BLS API.
 
 ## Use in Google Colab
 If you want to try it out in the cloud ☁️, to see the `streamlit-bls-connection` with a Streamlit app in action, you can click the link below!
