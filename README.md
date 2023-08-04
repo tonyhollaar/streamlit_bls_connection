@@ -6,6 +6,21 @@
   <img src="https://raw.githubusercontent.com/tonyhollaar/streamlit_bls_connection/main/logo.svg"><br>
 </div>
 
+# Table of Contents
+- [Description](#description)
+- [How to use streamlit-bls-connection](#how-to-use-streamlit-bls-connection)
+    - [Installation](#installation)
+    - [Create .py file](#create-py-file)
+    - [In terminal set file path of folder containing .py file](#in-terminal-set-file-path-of-folder-containing-py-file)
+    - [Run Streamlit App](#run-streamlit-app)
+- [Documentation](#documentation)
+- [Requirements](#requirements)
+- [License](#license)
+- [Contact](#contact)
+- [Reporting Issues](#reporting-issues)
+- [Use in Google Colab](#use-in-google-colab)
+- [Streamlit Demo](#streamlit-demo)
+
 ## Description
 The `streamlit-bls-connection` package allows you to easily interact with the U.S. Bureau of Labor Statistics (BLS) API and retrieve data as pandas dataframes and display them in [`Streamlit`](https://docs.streamlit.io/) !
 
