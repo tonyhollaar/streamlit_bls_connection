@@ -123,11 +123,11 @@ The `query` method of the `BLSConnection` class allows you to fetch data from th
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-For questions, suggestions, or contributions, please visit my [GitHub Profile](https://github.com/tonyhollaar).
+For questions ❓, suggestions, or contributions, please visit my [GitHub Profile](https://github.com/tonyhollaar).
 
 ## Reporting Issues
 
-If you encounter any problems, have questions, or want to request a new feature, please feel free to open an issue on [GitHub](https://github.com/tonyhollaar/streamlit_bls_connection/issues). I appreciate your feedback and will do our best to address any concerns promptly.
+If you encounter any problems 🔥, have questions, or want to request a new feature, please feel free to open an issue on [GitHub](https://github.com/tonyhollaar/streamlit_bls_connection/issues). I appreciate your feedback and will do our best to address any concerns promptly.
 
 When reporting an issue, please provide as much detail as possible, including the version of the package, the Python version, and a clear description of the problem or feature request. This will help me better understand and resolve the issue quickly.
 
@@ -137,12 +137,12 @@ Thank you for your contributions to making this package better!
 Special thanks 👏 to the Streamlit team for creating an amazing framework for building interactive web apps with Python.
 
 ## Use in Google Colab
-If you want to try it out in the cloud, to see the `streamlit-bls-connection` with a Streamlit app in action, you can click the link below!
+If you want to try it out in the cloud ☁️, to see the `streamlit-bls-connection` with a Streamlit app in action, you can click the link below!
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tonyhollaar/streamlit_bls_connection/blob/main/example_googlecolab_streamlit_bls_connection.ipynb)
 
 ## Streamlit Demo
-If you want to see a showcase demo in Streamlit, click the link below!
+If you want to see a showcase demo 🚀 in Streamlit, click the link below!
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bls-connection-demo.streamlit.app/)
 
