@@ -13,7 +13,7 @@ setup(
     author='Tony Hollaar',
     author_email='thollaar@gmail.com',
     url='https://github.com/tonyhollaar/',
-    download_url='https://github.com/tonyhollaar/streamlit_bls_connection/archive/refs/tags/v4.tar.gz',
+    download_url='https://github.com/tonyhollaar/streamlit_bls_connection/archive/refs/tags/v0.8.tar.gz',
     packages=find_packages(),
     keywords=['streamlit', 'api', 'bls'],  # <-- Comma added here
     install_requires=[
