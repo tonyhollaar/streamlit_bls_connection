@@ -31,6 +31,7 @@ conn = st.experimental_connection('bls', type=BLSConnection)
 
 # Step 2: Define input parameters
 # Tip: one or multiple Series ID's* can be retrieved
+# find Series ID's on www.bls.gov > DATA TOOLS
 seriesids_list = ['APU000074714', 'APU000072610']
 start_year_str = '2014' # start of date range
 end_year_str = '2023'   # end of date range
