@@ -1,5 +1,4 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![PyPI](https://img.shields.io/pypi/v/streamlit-bls-connection)
 ![Python: 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyPI Version](https://img.shields.io/pypi/v/streamlit-bls-connection.svg)
 
@@ -63,6 +62,43 @@ streamlit run app.py
 ```
 5. See your results in the browser of your Streamlit App!
 
+### Documentation
+`connection.query(seriesids: List[str], start_year: str, end_year: str, api_key: Optional[str] = None, catalog: bool = False, calculations: bool = False, annualaverage: bool = False, aspects: bool = False) -> Dict[str, pd.DataFrame]`
+
+The `query` method of the `BLSConnection` class allows you to fetch data from the BLS API. Before using this method, you need to create a `BLSConnection` object using the `st.experimental_connection` function and import the `BLSConnection` class.
+
+**Parameters:**
+
+- `seriesids` (list of str):
+    - **Description:** A list of strings representing the BLS time series data to fetch.
+    - **Example:** `['APU000074714', 'APU000072610']`
+    - **Note:** The Series IDs are unique identifiers for specific datasets or statistical measures available from the Bureau of Labor Statistics. You can find Series IDs on the BLS website's DATA TOOLS section.
+
+- `start_year` (str):
+    - **Description:** The start year for the data retrieval (inclusive), represented as a string.
+    - **Example:** `'2014'`
+    - **Note:** The data retrieval will begin from this year onwards.
+
+- `end_year` (str):
+    - **Description:** The end year for the data retrieval (inclusive), represented as a string.
+    - **Example:** `'2023'`
+    - **Note:** The data retrieval will include data up to and including this year.
+
+- `api_key` (str, optional):
+    - **Description:** The API key for accessing the BLS API. If provided, it enhances the data access capabilities, allowing for a larger number of requests.
+    - **Example:** `'YOUR_API_KEY_HERE'`
+    - **Note:** Without an API key, you might be subject to limitations on the number of requests you can make. To obtain an API key, you can register on the BLS website.
+
+- `catalog`, `calculations`, `annualaverage`, `aspects` (bool, optional):
+    - **Description:** Optional boolean parameters to include additional data fields for each time series.
+    - **Default:** `False`
+    - `catalog`: Whether to include catalog data for the series. Catalog data provides information about the series, such as the title and survey name. (Accessible only with an API key)
+    - `calculations`: Whether to include calculated data for the series. Calculated data refers to additional statistics derived from the primary data series. (Accessible only with an API key)
+    - `annualaverage`: Whether to include annual average data for the series. This field will be relevant if the series has data computed as annual averages. (Accessible only with an API key)
+    - `aspects`: Whether to include additional aspects data for the series. Aspects data includes additional metadata or contextual information about the series. (Accessible only with an API key)
+    - **Note:** Enabling any of these parameters with an API key will include the corresponding data fields in the returned DataFrames. This additional information can be useful for more detailed analysis and visualization of the data.
+
+**Returns:** A dictionary with Series IDs as keys and DataFrames as values, containing the fetched BLS data for each series. Each DataFrame includes columns for 'date', 'value', '%_change_value', 'year', 'month', 'period'. If the API key is provided, 'seriesID', 'series_title', and 'survey_name' columns are also included in the DataFrames. Empty or all-None columns are excluded from the DataFrames.
 
 ## Requirements
 - Python version 3.8 and above
