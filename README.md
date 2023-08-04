@@ -123,11 +123,11 @@ The `query` method of the `BLSConnection` class allows you to fetch data from th
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-For questions ❓, suggestions, or contributions, please visit my [GitHub Profile](https://github.com/tonyhollaar).
+For questions, suggestions, or contributions, please visit my [GitHub Profile](https://github.com/tonyhollaar).
 
 ## Reporting Issues
 
-If you encounter any problems 🔥, have questions, or want to request a new feature, please feel free to open an issue on [GitHub](https://github.com/tonyhollaar/streamlit_bls_connection/issues). I appreciate your feedback and will do our best to address any concerns promptly.
+If you encounter any problems 🔥, have questions ❓, or want to request a new feature 🆕, please feel free to open an issue on [GitHub](https://github.com/tonyhollaar/streamlit_bls_connection/issues). I appreciate your feedback and will do our best to address any concerns promptly.
 
 When reporting an issue, please provide as much detail as possible, including the version of the package, the Python version, and a clear description of the problem or feature request. This will help me better understand and resolve the issue quickly.
 
