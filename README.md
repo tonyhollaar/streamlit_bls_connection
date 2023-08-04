@@ -124,4 +124,5 @@ If you want to try it out in the cloud, to see the `streamlit-bls-connection` wi
 
 ## Streamlit Demo
 If you want to see a showcase demo in Streamlit, click the link below!
+
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bls-connection-demo.streamlit.app/)
