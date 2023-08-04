@@ -1,9 +1,9 @@
 Metadata-Version: 2.1
 Name: streamlit-bls-connection
-Version: 0.7
+Version: 0.8
 Summary: A package to fetch Bureau of Labor Statistics data using Streamlit
 Home-page: https://github.com/tonyhollaar/
-Download-URL: https://github.com/tonyhollaar/streamlit_bls_connection/archive/refs/tags/v4.tar.gz
+Download-URL: https://github.com/tonyhollaar/streamlit_bls_connection/archive/refs/tags/v0.8.tar.gz
 Author: Tony Hollaar
 Author-email: thollaar@gmail.com
 License: MIT
@@ -37,7 +37,7 @@ To run the Streamlit app locally on your machine, follow these steps:
 1. Install the `streamlit-bls-connection` package and its dependencies by running the following command in your terminal or command prompt:
 
 ```bash
-pip install streamlit-bls-connection
+pip install streamlit_bls_connection
 ```
 
 ### Create .py file
@@ -47,16 +47,20 @@ import streamlit as st
 from streamlit_bls_connection import BLSConnection
 
 # Step 1: Setup connection to US Bureau of Labor Statistics
-connection = BLSConnection("bls_connection")
+conn = st.experimental_connection('bls', type=BLSConnection)
 
-# Step 2: Define Input parameters for the API call
+# Step 2: Define input parameters
 # Tip: one or multiple Series ID's* can be retrieved
+# find Series ID's on www.bls.gov > DATA TOOLS
 seriesids_list = ['APU000074714', 'APU000072610']
-start_year_str = '2014'  # start of date range
-end_year_str = '2023'    # end of date range
+start_year_str = '2014' # start of date range
+end_year_str = '2023'   # end of date range
 
 # Step 3: Fetch data using the custom connection
-dataframes_dict = connection.query(seriesids_list, start_year_str, end_year_str)
+dataframes_dict = connection.query(seriesids_list,
+                                   start_year_str, 
+                                   end_year_str,
+                                   api_key = None)
 
 # Step 4: Create dataframes
 gas_df = dataframes_dict['APU000074714']
