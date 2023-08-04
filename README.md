@@ -137,7 +137,7 @@ Thank you for your contributions to making this package better!
 ## Acknowledgments
 Special thanks 👏 to the Streamlit team for creating an amazing framework for building interactive web apps with Python.
 
-### How do I obtain an API Key?
+## How do I obtain an API Key?
 Before using the `streamlit-bls-connection` package, you need to obtain an API key from the U.S. Bureau of Labor Statistics (BLS). The API key is required for enhanced data access capabilities, allowing for a larger number of requests.
 
 To obtain your API key, follow these steps:
