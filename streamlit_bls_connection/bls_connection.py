@@ -9,7 +9,7 @@ import requests
 import pandas as pd
 import json
 
-class BLSConnection(ExperimentalBaseConnection):
+class BLSConnection(BaseConnection):
     def __init__(self, connection_name, **kwargs):
         """
         Initializes the BLSConnection object.
