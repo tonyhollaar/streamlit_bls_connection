@@ -4,7 +4,7 @@ Created on Mon Jul 24 15:12:23 2023
 @author: tonyhollaar
 """
 import streamlit as st
-from streamlit.connections import ExperimentalBaseConnection
+from streamlit.connections import BaseConnection
 import requests
 import pandas as pd
 import json
